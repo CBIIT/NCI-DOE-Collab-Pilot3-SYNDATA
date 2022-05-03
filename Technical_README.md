@@ -28,7 +28,7 @@ The script performs the following steps:
 4) Generates multiple samples of synthetic data and saves them and the performance results to a pickle file.
 5) Produces a PDF report comparing the performance of the methods. 
 
-Output files with the logs, results, and PDF report from running *demo.py* can be found here [*outputs/demo/* folder] (https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/tree/main/outputs/demo).
+Output files with the logs, results, and PDF report from running *demo.py* can be found here [*outputs/demo/* folder](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/tree/main/outputs/demo).
 
 ## Acknowledgments
    
