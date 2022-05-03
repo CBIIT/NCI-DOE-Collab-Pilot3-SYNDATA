@@ -6,7 +6,7 @@ SYNDATA is a suite of statistical and machine learning models to generate discre
 For more details of the methods implemented and the metrics used to evaluate synthetic data generation models, please refer to this paper: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
 
 ## User Community
-Data scientists and statisticians interested in producing medical synthetic data.
+Data scientists and statisticians interested in producing real-like synthetic clinical data.
 
 ## Usability	
 Users can train the provided untrained model on their own data or with preprocessed data of clinical pathology reports included with this resource. These reports came from the [Surveillance, Epidemiology, and End Results](https://seer.cancer.gov/) (SEER) Program.
