@@ -20,8 +20,9 @@ Generative models of text is a known problem in the natural language proce
 data-owners to generate and evaluate synthetic data based on real data in order to make it available to the broader research community.
 
 ## Components	
-* Script to train a LSTM-based model: [p3b2_baseline_keras2.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-RNN-LSTM-based-Clinical-Text-Generator/blob/master/Pilot3/P3B2/p3b2_baseline_keras2.py)
-* Data: The preprocessed training and test data of SEER clinical pathology reports are in the [LSTM-based Clinical Text Generator](https://modac.cancer.gov/searchTab?dme_data_id=NCI-DME-MS01-18031472) asset in the Model and Data Clearinghouse (MoDaC).
+
+* Data:
+  * [UCIBreast.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/datasets/UCIBreast.py)
 
 
 ## Technical Details
