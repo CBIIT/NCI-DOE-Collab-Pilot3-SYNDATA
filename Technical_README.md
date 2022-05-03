@@ -10,18 +10,26 @@ To set up the Python environment needed to run SYNDATA:
    conda activate syndata
 ```
 
-
 ## Training
+
+The *experiments/* folder provides a starter script, [demo.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/experiments/demo.py), to run SYNDATA. One can use this starter script to build additional scripts for running new experiments.
+
+To run this script, execute the following command: 
+
+```
+python demo.py
+```
+
+The script performs the following steps: 
 
 1) Downloads the [UCI's Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer), label encodes each categorical variable in the dataset, and prepares the input data for training.
 2) Defines the methods, parameters, and performance metrics to use.
 3) Trains each method with the input data.
 4) Generates multiple samples of synthetic data and saves them and the performance results to a pickle file.
 5) Produces a PDF report comparing the performance of the methods. 
-To run SYNDATA, an example of how to set up exdemo.py Within `experiments/` folder is a. It runs an experiment with [UCI's Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer) data. One can build up on this file to create new experiments.
 
-```
-python demo.py
-```
+Output files with the logs, results, and PDF report from running *demo.py* can be found here [*outputs/demo/* folder] (https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/tree/main/outputs/demo).
 
-Examples of the output files with the logs, results, and PDF report from running `demo.py` can be found here [`outputs/demo/` folder] (https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/tree/main/outputs/demo).
+## Acknowledgments
+   
+This work has been supported in part by the Joint Design of Advanced Computing Solutions for Cancer (JDACS4C) program established by the U.S. Department of Energy (DOE) and the National Cancer Institute (NCI) of the National Institutes of Health.
