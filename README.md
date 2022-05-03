@@ -25,8 +25,8 @@ We recommend using a GPU-powered computer for faster execution of SYNDATA.
 SYNDATA gives the user four methods to use for generating synthetic clinical data containing discrete/categorical variables only. In addition, SYNDATA provides the user with a list of performance metrics for assessing each method individually and/or comparing multiple methods at once. 
 
 The performance metrics include:
- * data utility metrics (i.e. support coverage, cross-classification) - gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset
- * disclosure metrics (i.e. membership disclosure, attribute disclosure) - measure how much of the real data may be revealed (directly or indirectly) by the synthetic data
+ * data utility metrics - gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset (i.e. support coverage, cross-classification)
+ * disclosure metrics - measure how much of the real data may be revealed (directly or indirectly) by the synthetic data (i.e. membership disclosure, attribute disclosure)
 
 ## Components	
 
