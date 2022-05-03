@@ -26,9 +26,10 @@ SYNDATA gives the user four methods to use for generating synthetic clinical dat
 
 ## Components	
 
-* Demo script to train models on input data from [UCI Machine Learning Repository Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer) and generate synthetic data:[demo.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/experiments/demo.py)
+* Script:
+  * [demo.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/experiments/demo.py): demo script to train different methods on an example dataset, generate synthetic data, and produce performance metric reports
 * Data:
-  * Code to prepare the dataset from [UCI Machine Learning Repository Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer): [UCIBreast.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/datasets/UCIBreast.py)
+  * [UCIBreast.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/datasets/UCIBreast.py): code to prepare an example dataset from [UCI Machine Learning Repository Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer) 
 
 
 ## Technical Details
