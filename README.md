@@ -9,29 +9,20 @@ SYNDATA includes the following methods to generate synthetic data:
  * Categorical Latent Gaussian process (CLGP)
  * Multivariate Imputation by Chained Equations (MICE)
 
-
-
 For more details of the methods implemented and the metrics used to evaluate synthetic data generation methods, please refer to this paper: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
 
 ## User Community
 Data scientists and statisticians interested in producing real-like synthetic clinical data.
 
 ## Usability	
-Users can train the provided untrained model on their own data or with preprocessed data of clinical pathology reports included with this resource. These reports came from the [Surveillance, Epidemiology, and End Results](https://seer.cancer.gov/) (SEER) Program.
+Users must provide their own input data of discrete/categorical variables only. SYNDATA includes scripts to prepare an example dataset. 
 
-To use this resource, users must be familiar with 
-Data scientists can train the provided untrained model on their own data, or use the trained model to <fill in the details>. The provided scripts use data that have been downloaded from <location> and normalized.
+To utilize SYNDATA, users must be experienced with Python and be familiar with the methods listed above to set the parameters appropriately. 
  
-Requires many software dependencies, even on well-supported high-performance computing systems such as NIH's Biowulf.
- 
-To use the software package in this repository, users must meet the following criteria:
- * Possess the basic skills to program and run Python scripts.
- * Able to process the input data into the data format accepted by the package.
- * Understand the input parameters of the <name> algorithm, so that they can set the parameters appropriately to execute the algorithm.
+We recommend using a GPU-powered computer for faster execution of SYNDATA.
 
 ## Uniqueness	
-SYNDATA gives the user four methods to use for generating synthetic clinical data containing discrete/categorical variables only. In addition, SYNDATA provides the user with a list of performance metrics for assessing each method individually and/or comparing multiple methods at once. The performance metrics include data utility metrics (i.e. support coverage, cross-classification) to gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset and disclosure metrics (i.e. membership disclosure, attribute disclosure) to measure how much of the real data may
-be revealed (directly or indirectly) by the synthetic data.
+SYNDATA gives the user four methods to use for generating synthetic clinical data containing discrete/categorical variables only. In addition, SYNDATA provides the user with a list of performance metrics for assessing each method individually and/or comparing multiple methods at once. The performance metrics include data utility metrics (i.e. support coverage, cross-classification) to gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset and disclosure metrics (i.e. membership disclosure, attribute disclosure) to measure how much of the real data may be revealed (directly or indirectly) by the synthetic data.
 
 ## Components	
 
