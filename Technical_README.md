@@ -1,6 +1,6 @@
 ## Setup
 
-To set up the Python environment needed to train and run this model:
+To set up the Python environment needed to run SYNDATA:
 1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
 2. Clone this repository. 
 3. Create the environment as shown below.
