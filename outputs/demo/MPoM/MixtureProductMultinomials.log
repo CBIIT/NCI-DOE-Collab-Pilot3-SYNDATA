@@ -1,0 +1,13 @@
+04/20/2022 04:52:59 PM - INFO -Logger.info : Estimating variables distribution.
+04/20/2022 04:52:59 PM - INFO -Logger.info : age: 6 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : breast: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : breast-quad: 6 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : class: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : deg-malig: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : inv-nodes: 7 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : irradiat: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : menopause: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : node-caps: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : tumor-size: 11 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : Gibbs iteration: 0 of 100
+04/20/2022 04:53:04 PM - INFO -Logger.info : Done with Gibbs inference

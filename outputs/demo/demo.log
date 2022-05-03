@@ -1,0 +1,96 @@
+04/20/2022 04:52:57 PM - INFO -Logger.info : Experiment directory created.
+04/20/2022 04:52:57 PM - INFO -Logger.info : Experiment directory created.
+04/20/2022 04:52:57 PM - INFO -Logger.info : Method IM.
+04/20/2022 04:52:57 PM - INFO -Logger.info : Method IM.
+04/20/2022 04:52:57 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:52:57 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:52:57 PM - INFO -Logger.info : Estimating variables distribution.
+04/20/2022 04:52:57 PM - INFO -Logger.info : class
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.7027972 0.2972028]
+04/20/2022 04:52:57 PM - INFO -Logger.info : age
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.12587413 0.31468531 0.1993007  0.33566434 0.02097902 0.0034965 ]
+04/20/2022 04:52:57 PM - INFO -Logger.info : menopause
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.52447552 0.45104895 0.02447552]
+04/20/2022 04:52:57 PM - INFO -Logger.info : tumor-size
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.20979021 0.17482517 0.1048951  0.02797203 0.18881119 0.02797203
+ 0.0979021  0.07692308 0.06643357 0.01398601 0.01048951]
+04/20/2022 04:52:57 PM - INFO -Logger.info : inv-nodes
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.74475524 0.05944056 0.03496503 0.12587413 0.02097902 0.01048951
+ 0.0034965 ]
+04/20/2022 04:52:57 PM - INFO -Logger.info : node-caps
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.77622378 0.1958042  0.02797203]
+04/20/2022 04:52:57 PM - INFO -Logger.info : deg-malig
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.2972028  0.45454545 0.24825175]
+04/20/2022 04:52:57 PM - INFO -Logger.info : breast
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.53146853 0.46853147]
+04/20/2022 04:52:57 PM - INFO -Logger.info : breast-quad
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.38461538 0.11538462 0.33916084 0.08391608 0.07342657 0.0034965 ]
+04/20/2022 04:52:57 PM - INFO -Logger.info : irradiat
+04/20/2022 04:52:57 PM - INFO -Logger.info : [0.76223776 0.23776224]
+04/20/2022 04:52:57 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:52:57 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:52:58 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:52:58 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:52:59 PM - INFO -Logger.info : Results stored in ../outputs/demo/IM/IndependentMarginals.pkl
+04/20/2022 04:52:59 PM - INFO -Logger.info : Results stored in ../outputs/demo/IM/IndependentMarginals.pkl
+04/20/2022 04:52:59 PM - INFO -Logger.info : Method MPoM.
+04/20/2022 04:52:59 PM - INFO -Logger.info : Method MPoM.
+04/20/2022 04:52:59 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:52:59 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:52:59 PM - INFO -Logger.info : Estimating variables distribution.
+04/20/2022 04:52:59 PM - INFO -Logger.info : age: 6 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : breast: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : breast-quad: 6 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : class: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : deg-malig: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : inv-nodes: 7 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : irradiat: 2 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : menopause: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : node-caps: 3 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : tumor-size: 11 levels
+04/20/2022 04:52:59 PM - INFO -Logger.info : Gibbs iteration: 0 of 100
+04/20/2022 04:53:04 PM - INFO -Logger.info : Done with Gibbs inference
+04/20/2022 04:53:04 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:04 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:04 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:04 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:05 PM - INFO -Logger.info : Results stored in ../outputs/demo/MPoM/MixtureProductMultinomials.pkl
+04/20/2022 04:53:05 PM - INFO -Logger.info : Results stored in ../outputs/demo/MPoM/MixtureProductMultinomials.pkl
+04/20/2022 04:53:05 PM - INFO -Logger.info : Method MICE-DT.
+04/20/2022 04:53:05 PM - INFO -Logger.info : Method MICE-DT.
+04/20/2022 04:53:05 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:05 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:05 PM - INFO -Logger.info : Estimating variables distribution.
+04/20/2022 04:53:05 PM - INFO -Logger.info : Training completed.
+04/20/2022 04:53:05 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:05 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:07 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:07 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:08 PM - INFO -Logger.info : Results stored in ../outputs/demo/MICE-DT/MICE.pkl
+04/20/2022 04:53:08 PM - INFO -Logger.info : Results stored in ../outputs/demo/MICE-DT/MICE.pkl
+04/20/2022 04:53:08 PM - INFO -Logger.info : Method MICE-LR.
+04/20/2022 04:53:08 PM - INFO -Logger.info : Method MICE-LR.
+04/20/2022 04:53:08 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:08 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:08 PM - INFO -Logger.info : Estimating variables distribution.
+04/20/2022 04:53:09 PM - INFO -Logger.info : Training completed.
+04/20/2022 04:53:09 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:09 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:10 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:10 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:53:11 PM - INFO -Logger.info : Results stored in ../outputs/demo/MICE-LR/MICE.pkl
+04/20/2022 04:53:11 PM - INFO -Logger.info : Results stored in ../outputs/demo/MICE-LR/MICE.pkl
+04/20/2022 04:53:11 PM - INFO -Logger.info : Method CLGP.
+04/20/2022 04:53:11 PM - INFO -Logger.info : Method CLGP.
+04/20/2022 04:53:11 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:11 PM - INFO -Logger.info : Processing UCI-Breast
+04/20/2022 04:53:11 PM - INFO -Logger.info : The categorical levels are [ 6  2  6  2  3  7  2  3  3 11]
+04/20/2022 04:53:11 PM - WARNING -deprecation.new_func : From ../methods/CLGP.py:277: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+04/20/2022 04:54:25 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:54:25 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:54:28 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:54:28 PM - INFO -Logger.info : Sampling synthetic dataset ... 
+04/20/2022 04:54:29 PM - INFO -Logger.info : Results stored in ../outputs/demo/CLGP/CLGP.pkl
+04/20/2022 04:54:29 PM - INFO -Logger.info : Results stored in ../outputs/demo/CLGP/CLGP.pkl
