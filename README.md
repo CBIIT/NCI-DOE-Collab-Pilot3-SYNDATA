@@ -31,7 +31,7 @@ Refer to this [README](.Technical_README.md).
 - Priyadip Ray (LLNL)
 - Ana Paula Sales (LLNL)
 
-LLNL - Lawrence Livermore National Laboratory![image](https://user-images.githubusercontent.com/91564739/166485021-017c862c-90a8-46ca-ba9c-5fa8f5e13269.png)
+LLNL - Lawrence Livermore National Laboratory
 
 ## Code Release
 
