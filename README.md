@@ -3,6 +3,9 @@
 ## Description
 Suite of statistical/machine learning models to generate discrete/categorical synthetic data. Generate synthetic clinical data. It useful for data science researchers/statisticians that need the data to train their models but cannot have access to real data due to HIPPA constraints.
 
+SYNDATA software includes a suite of statistical/machine learning models to generate discrete/categorical synthetic data. To train each model, the user must provide the input data from which the model parameters will be infered. Once the models are trained, they can be used to generate entirely synthetic data. Finally, in addition to the actual models, SYNDATA includes code to process data, evaluate results (based on cross validation), and create a PDF report.
+
+For more details of the methods implemented and the metrics used to evaluate synthetic data generation models, we refer to our paper: Generation and evaluation of synthetic patient data.
 
 ## User Community
 Data scientists and statisticians interested in generating more examples of unstructured text with a specific label from a given corpus for training machine learning or deep learning models on clinical text.
