@@ -1,7 +1,15 @@
 # NCI-DOE-Collab-Pilot3-SYNDATA
 
 ## Description
-SYNDATA is a suite of statistical and machine learning models to generate discrete/categorical synthetic data. SYNDATA is useful for data scientists and statisticians that need data to train their models but have limited access to real patient data due to HIPPA constraints.
+SYNDATA is a suite of statistical and machine learning methods to generate discrete/categorical synthetic data. SYNDATA is useful for data scientists and statisticians that need data to train their models but have limited access to real patient data due to HIPPA constraints.
+
+SYNDATA includes the following methods to generate synthetic data:
+ * Mixture of Product of Multinomials (MPoM) 
+ * Independent Marginals
+ * Categorical Latent Gaussian process (CLGP)
+ * Multivariate Imputation by Chained Equations (MICE)
+
+
 
 For more details of the methods implemented and the metrics used to evaluate synthetic data generation models, please refer to this paper: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
 
