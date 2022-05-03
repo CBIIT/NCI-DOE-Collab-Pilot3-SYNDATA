@@ -30,7 +30,7 @@ To use the software package in this repository, users must meet the following cr
  * Understand the input parameters of the <name> algorithm, so that they can set the parameters appropriately to execute the algorithm.
 
 ## Uniqueness	
-SYNDATA gives the user four methods to use for generating synthetic clinical data. In addition, SYNDATA provides the user with a list of performance metrics for assessing each method individually and/or comparing multiple methods at once. The performance metrics include data utility metrics (i.e. support coverage, cross-classification) to gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset and disclosure metrics (i.e. membership disclosure, attribute disclosure) to measure how much of the real data may
+SYNDATA gives the user four methods to use for generating synthetic clinical data containing discrete/categorical variables only. In addition, SYNDATA provides the user with a list of performance metrics for assessing each method individually and/or comparing multiple methods at once. The performance metrics include data utility metrics (i.e. support coverage, cross-classification) to gauge to what extent the statistical properties of the real (private) data are captured and transferred to the synthetic dataset and disclosure metrics (i.e. membership disclosure, attribute disclosure) to measure how much of the real data may
 be revealed (directly or indirectly) by the synthetic data.
 
 ## Components	
