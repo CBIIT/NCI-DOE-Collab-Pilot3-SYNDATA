@@ -11,7 +11,7 @@ SYNDATA includes the following methods to generate synthetic data:
 
 
 
-For more details of the methods implemented and the metrics used to evaluate synthetic data generation models, please refer to this paper: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
+For more details of the methods implemented and the metrics used to evaluate synthetic data generation methods, please refer to this paper: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
 
 ## User Community
 Data scientists and statisticians interested in producing real-like synthetic clinical data.
