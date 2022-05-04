@@ -35,9 +35,11 @@ The performance metrics include:
 * Data:
   * [UCIBreast.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/datasets/UCIBreast.py): code to prepare an example dataset from [UCI Machine Learning Repository Breast Cancer Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer) 
 
-
 ## Technical Details
 Refer to this [README](.Technical_README.md).
+
+## Reference
+For more details, refer to this [publication](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1).
 
 ## Authors:
 
