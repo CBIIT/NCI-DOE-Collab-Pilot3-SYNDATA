@@ -12,7 +12,7 @@ To set up the Python environment needed to run SYNDATA:
 
 ## Training
 
-The *experiments/* folder provides a starter script, [demo.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/blob/main/experiments/demo.py), to run SYNDATA. One can use this starter script to build additional scripts for running new experiments.
+The *experiments/* folder provides a starter script, [demo.py](./experiments/demo.py), to run SYNDATA. One can use this starter script to build additional scripts for running new experiments.
 
 To run this script, execute the following command: 
 
@@ -28,7 +28,7 @@ The script performs the following steps:
 4) Generates multiple samples of synthetic data and saves them and the performance results to a pickle file.
 5) Produces a PDF report comparing the performance of the methods. 
 
-Output files with the logs, results, and PDF report from running *demo.py* can be found in the [*outputs/demo/*](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-SYNDATA/tree/main/outputs/demo) folder.
+Output files with the logs, results, and PDF report from running *demo.py* can be found in the [*outputs/demo/*](./outputs/demo) folder.
 
 ## Acknowledgments
    
