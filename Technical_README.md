@@ -12,7 +12,7 @@ To set up the Python environment needed to run SYNDATA:
 
 ## Training
 
-The *experiments/* folder provides a starter script, [demo.py](./experiments/demo.py), to run SYNDATA. One can use this starter script to build additional scripts for running new experiments.
+The [*experiments/*](./experiments) folder provides a starter script, [demo.py](./experiments/demo.py), to run SYNDATA. One can use this starter script to build additional scripts for running new experiments.
 
 To run this script, execute the following command: 
 
@@ -22,13 +22,13 @@ python demo.py
 
 The script performs the following steps: 
 
-1) Downloads the [UCI's Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer), label encodes each categorical variable in the dataset, and prepares the input data for training.
+1) Downloads the [UCI's Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer) dataset, label encodes each categorical variable in the dataset, and prepares the input data for training.
 2) Defines the methods, parameters, and performance metrics to use.
 3) Trains each method with the input data.
 4) Generates multiple samples of synthetic data and saves them and the performance results to a pickle file.
 5) Produces a PDF report comparing the performance of the methods. 
 
-Output files with the logs, results, and PDF report from running *demo.py* can be found in the [*outputs/demo/*](./outputs/demo) folder.
+The [*outputs/demo/*](./outputs/demo) folder contains the output files with the logs, results, and PDF report from running *demo.py*.
 
 ## Acknowledgments
    
